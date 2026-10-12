@@ -4,7 +4,11 @@ A two-digit decimal counter for the Terasic DE1-SoC board, written in Verilog an
 
 Final project for EEL 3705L, by John Nguyen.
 
-![Top-level schematic](top-level-design.jpg)
+## System Design
+
+![Top-down system diagram](Top_down_system.png)
+
+The 50 MHz board clock is divided down to 4 Hz and drives a two-digit BCD counter. Each digit's 4-bit value goes to its own seven-segment driver, which produces the 7-bit pattern for `HEX0` (ones) or `HEX1` (tens). `SW0` selects the count direction and `KEY0` resets the count.
 
 ## Controls
 
@@ -123,4 +127,4 @@ To view waveforms, drop `-c` and the `-do` argument so the GUI opens, add the si
 | `frequency_divider.v`, `counter.v`, `hex_to_7seg.v` | Verilog modules |
 | `*.bsf` | Schematic symbols |
 | `tb_frequency_divider.v`, `tb_counter.v` | Testbenches |
-| `top-level-design.jpg` | Photo of the top-level schematic |
+| `Top_down_system.png` | System block diagram |
