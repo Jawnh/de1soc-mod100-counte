@@ -1,0 +1,72 @@
+# ---- Quartus Prime generated directories ----
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+qdb/
+tmp-clearbox/
+dni/
+.qsys_edit/
+
+# ---- Simulation (Questa / ModelSim) ----
+# Quartus NativeLink regenerates everything under simulation/
+simulation/
+work/
+rtl_work/
+gate_work/
+*.wlf
+*.vstf
+*.ucdb
+transcript
+msim_transcript
+modelsim.ini
+wlft*
+
+# ---- Quartus generated files ----
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.qmsg
+*.done
+*.pin
+*.jdi
+*.jditmp
+*.sld
+*.sft
+*.vo
+*.vho
+*.sdo
+*.xrf
+*.pof
+*.sof
+*.rbf
+*.jic
+*.cdf
+*.ddb
+*.cmp
+*.eqn
+*.htm
+*.ttf
+*.tod
+c5_pin_model_dump.txt
+PLLJ_PLLSPE_INFO.txt
+undo_redo.txt
+
+# ---- Backups ----
+*.bak
+*.bak[0-9]*
+*~
+*.swp
+
+# ---- OS / editor ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+
+# ---- Office lock files ----
+~$*
+
+# ---- Unnamed image drops ----
+image.jpg
